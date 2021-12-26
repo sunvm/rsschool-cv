@@ -1,1 +1,1 @@
-# rsschool-cv
+https://sunvm.github.io/rsschool-cv/cv

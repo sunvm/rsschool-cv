@@ -21,6 +21,7 @@ I am 20 years old and I am studying to be a physics programmer at Brest State A.
 * English - A2+ (Still learning)
 
 ## Code example
+##### Python
 ```
 def positive_response_handler():
     result_text.delete(1.0, END)
