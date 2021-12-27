@@ -1,1 +1,1 @@
-https://sunvm.github.io/rsschool-cv/cv
+https://sunvm.github.io/rsschool-cv/
