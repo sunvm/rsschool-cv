@@ -2,12 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="icon"    href="assets/icon.ico">
+    <link rel="preconnect"  href="https://fonts.googleapis.com">
+    <link rel="preconnect"  href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap">
+    <title>cv</title>
 </head>
+
+
 <body>
 
+
+<header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+          </nav>
+        </div>
+</header>
+
+
+<main class="main">
+    <div class="container">
+        <section class="section"> <h1 class="section-title" id="profile">Ilya Stanisheuski</h1>
+            <img id="profile-photo" src="/assets/profile-photo.png" alt="My photo">
+        </section>
+
+        <section class="section"> <h2 class="section-title"></h2>
+
+        </section>
+
+        <section class="section"> <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li>Phone: <strong>+375-29-2404-137</strong></li>
+                <li>GitHub: <a href="https://github.com/sunvm">@sunvm</a></li>
+                <li><a href="https://t.me/Smokietrue">Telegram</a></li>
+                <li><a href="https://www.linkedin.com/in/ilya-stanishevskiy-29a682205/">LinkedIn</a></li>
+                </ul>
+        </section>
+
+        <section class="section"> <h2 class="section-title">Summary</h2>
+            <p>I am 20 years old and I am studying to be a physics programmer at Brest State A.S. Pushkin University. I have long dreamed of working in IT, I really hope that I can go through all the stages of RSSchool. I studied C#, Java and Python, I know these languages at a basic level.</p>
+        </section>
+
+        <section class="section"> <h2 class="section-title">Skills</h2>
+            <ul>
+                <li><span style="color: #829985;">Python</span> - basic level</li>
+                <li><span style="color: #829985;">C#</span> - basic level </li>
+                <li><span style="color: #829985;">Java</span> - basic level</li>
+                <li><span style="color: #829985;">HTML</span> - basic level</li>
+                <li><span style="color: #829985;">CSS</span> - basic level</li>
+                <li><span style="color: #829985;">JavaScript</span> - basic level</li>
+                </ul>
+        </section>
+
+        <section class="section"> <h2 class="section-title">Code example</h2>
+            <h5 id="python">Python [addition of money to the player]</h5>
+                <pre>
+                    <code>def positive_response_handler():
+    result_text.<span class="hljs-keyword">delete</span>(<span class="hljs-number">1.0</span>, END)
+    <span class="hljs-keyword">global</span> money_score
+    <span class="hljs-built_in">count</span> = [<span class="hljs-number">15</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">50</span>, <span class="hljs-number">100</span>]
+    random.shuffle(<span class="hljs-built_in">count</span>)
+    random_money = <span class="hljs-built_in">count</span>[random.randrange(<span class="hljs-number">0</span>, <span class="hljs-built_in">len</span>(<span class="hljs-built_in">count</span>) - <span class="hljs-number">1</span>)]
+    money_score += random_money
+    <span class="hljs-keyword">print</span>(money_score)
+    result_text.<span class="hljs-keyword">insert</span>(END, <span class="hljs-string">"У вас {} $.\nВы получили {}"</span>
+                       .format(money_score, random_money))
+                    </code>
+                </pre>
+        </section>
+
+        <section class="section"> <h2 class="section-title">Courses</h2>
+        </section>
+
+        <section class="section"> <h2 class="section-title">Projects</h2>
+        </section>
+
+        <section class="section"> <h2 class="section-title">Education</h2>
+        </section>
+
+        <section class="section"> <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>Russian - native speaker</li>
+                <li>Belarussian -native speaker</li>
+                <li>English - A2+ (Still learning)</li>
+                </ul>
+        </section>
+    </div>
+
+
+</main>
+
+
+<footer class="footer">
+<div class="container"> </div>
+
+</footer>
+
+
 </body>
+
+
 </html>
