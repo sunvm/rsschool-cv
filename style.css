@@ -50,12 +50,9 @@ body {
  transition: background-size .2s;
 }
 
-
-.nav-link:hover {
+  .nav-link:hover {
     background-size: 4px 50px;
   }
-
-
 
 
 
@@ -81,6 +78,19 @@ body {
     color: #829985;
 }
 
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid #829985;
+    width: 100%;
+    padding: 50px 30px 35px;
+
+}
+
+.main-title {
+    font-size: 35px;
+}
+
 
 @media (max-width: 768px) {
     .section {
@@ -90,6 +100,10 @@ body {
 
 
 #profile {
+
+}
+
+#contacts {
 
 }
 
@@ -104,9 +118,7 @@ body {
     transition: color 0.5s;
 }
 
-.link:hover {
-    color: #5d7260;
-}
+
 
 #profile-photo {
     border-radius: 15px;
