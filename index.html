@@ -36,7 +36,7 @@
 
 <main class="main">
     <div class="container main-container">
-        <section class="section section-profile"> <h1 class="section-title main-title" id="profile">Ilya Stanisheuski <span style="font-size: 50px; color:black;">|</span> JUNIOR <span class="nav-link">FRONT-END</span> DEVELOPER</h1>
+        <section class="section section-profile"> <h1 class="section-title main-title" id="profile">Ilya Stanisheuski <span style="font-size: 50px; color:black;">|</span> JUNIOR <span id="front-end">FRONT-END</span> DEVELOPER</h1>
             <img id="profile-photo" src="/assets/profile-photo.png" alt="My photo">
         </section>
 
@@ -78,7 +78,7 @@
     random_money = <span class="hljs-built_in">count</span>[random.randrange(<span class="hljs-number">0</span>, <span class="hljs-built_in">len</span>(<span class="hljs-built_in">count</span>) - <span class="hljs-number">1</span>)]
     money_score += random_money
     <span class="hljs-keyword">print</span>(money_score)
-    result_text.<span class="hljs-keyword">insert</span>(END, <span class="hljs-string">"У вас {} $.\nВы получили {}"</span>
+    result_text.<span class="hljs-keyword">insert</span>(END, <span class="hljs-string">"У вас {} $.\nYou've got {}"</span>
                        .format(money_score, random_money))
                     </code>
                 </pre>
@@ -103,10 +103,8 @@
             <p><strong>Student at Brest State A.S. Pushkin University</strong></p>
         </section>
 
-        <section class="section" id="english"> <h2 class="section-title">Languages</h2>
+        <section class="section" id="english"> <h2 class="section-title">English</h2>
             <ul>
-                <li><span id="main-color">Russian</span> - native speaker</li>
-                <li><span id="main-color">Belarussian</span>-native speaker</li>
                 <li><span id="main-color">English</span> - A2+ (Still learning)</li>
                 </ul>
         </section>
@@ -117,7 +115,18 @@
 
 
 <footer class="footer">
-<div class="container"> </div>
+<div class="container footer-container">
+
+<div>
+    © 2022
+    <a href="https://github.com/sunvm" class="github">sunvm
+
+    </a>
+</div>
+
+<a href="https://rs.school/js/" class="rss"></a>
+
+</div>
 
 </footer>
 
