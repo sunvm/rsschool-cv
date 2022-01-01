@@ -4,7 +4,7 @@
 ### *Student at Brest State A.S. Pushkin University*
 
 
-## Abot me
+## About me
 I am 20 years old and I am studying to be a physics programmer at Brest State A.S. Pushkin University. I have long dreamed of working in IT, I really hope that I can go through all the stages of RSSchool. I studied C#, Java and Python, I know these languages at a basic level.
 
 ## Contact info:
