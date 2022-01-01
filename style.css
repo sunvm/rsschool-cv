@@ -1,6 +1,6 @@
 :root {
-    --mainColor: #FFFFFF;
-    --extraColor: #829985;
+    --mainColor: #617ACC;
+    --extraColor: #3B5DCC;
 }
 html {
     scroll-behavior: smooth;
@@ -25,7 +25,7 @@ code {
   font-size: 85%;
 }
 .header {
-  background-color: #829985;
+  background-color: #3B5DCC;
 }
 
 .container {
@@ -82,7 +82,7 @@ transition: background-size .2s;
  background-position: 0 100%;
  background-repeat: repeat-x;
  background-size: 4px 4px;
- color: #000;
+ color: #FFFFFF;
  text-decoration: none;
  transition: background-size .2s;
 }
@@ -100,7 +100,7 @@ transition: background-size .2s;
     border-bottom: 1px solid #000000;
 }
 .section-item a {
-    color: #829985;
+    color: #3B5DCC;
     text-decoration: none;
     transition: color 0.5s;
   }
@@ -112,13 +112,13 @@ transition: background-size .2s;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
+    color: #3B5DCC;
 }
 
 .section-profile {
     display: flex;
     justify-content: space-around;
-    border-bottom: 5px solid #829985;
+    border-bottom: 5px solid #3B5DCC;
     width: 100%;
     padding: 50px 30px 35px;
 
@@ -154,7 +154,7 @@ transition: background-size .2s;
 
 .link {
     text-decoration: none;
-    color: #829985;
+    color: #3B5DCC;
     transition: color 0.5s;
 }
 
@@ -162,18 +162,18 @@ transition: background-size .2s;
 
 #profile-photo {
     border-radius: 15px;
-    box-shadow: 0 0 0 3px #829985, 0 0 13px #333;
+    box-shadow: 0 0 0 3px #3B5DCC, 0 0 13px #333;
     width: 150px;
     height: 150px;
 }
 
 
 #main-color {
-    color: #829985;
+    color: #3B5DCC;
 }
 
 .footer {
-    background-color: #829985;
+    background-color: #3B5DCC;
     padding: 20px;
 }
 .footer-container {
